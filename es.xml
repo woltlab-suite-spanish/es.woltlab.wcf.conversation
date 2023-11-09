@@ -125,8 +125,8 @@
 		<item name="wcf.conversation.gotoLastPost"><![CDATA[Ir al último mensaje]]></item>
 		<item name="wcf.conversation.searchConversations"><![CDATA[Buscar conversaciones]]></item>
 		<item name="wcf.conversation.searchConversation"><![CDATA[Buscar sólo en esta conversación]]></item>
-		<item name="wcf.conversation.searchedConversation"><![CDATA[Only search conversation <a href="{link controller='Conversation' object=$searchedConversation}{/link}">{$searchedConversation->getTitle()}</a>]]></item>
-		<item name="wcf.conversation.participants.other"><![CDATA[and {if $conversation->participants - $participantSummaryCount == 1}one other{else}{#$conversation->participants-$participantSummaryCount} others{/if}]]></item>
+		<item name="wcf.conversation.searchedConversation"><![CDATA[Buscar sólo en la conversación <a href="{link controller='Conversation' object=$searchedConversation}{/link}">{$searchedConversation->getTitle()}</a>]]></item>
+		<item name="wcf.conversation.participants.other"><![CDATA[y {if $conversation->participants - $participantSummaryCount == 1}otro más{else}{#$conversation->participants-$participantSummaryCount} otros{/if}]]></item>
 		<item name="wcf.conversation.attachments"><![CDATA[Esta conversación contiene {#$conversation->attachments} {if $conversation->attachments == 1}archivo adjunto{else}archivos adjuntos{/if}]]></item>
 		<item name="wcf.conversation.error.mailboxIsFull"><![CDATA[Has alcanzado el límite máximo de conversaciones y no puedes crear nuevas conversaciones.]]></item>
 		<item name="wcf.conversation.message.editNote"><![CDATA[{$message->username} ha editado su mensaje {#$message->editCount} veces, última vez: {time time=$message->lastEditTime}.]]></item>
