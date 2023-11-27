@@ -11,7 +11,7 @@ Idioma español para **WoltLab Suite Core: Conversations** desarrollado por Wolt
 * [WoltLab Suite Gallery](https://github.com/woltlab-suite-es/es.woltlab.gallery)
 * [WoltLab Suite Blog](https://github.com/woltlab-suite-es/es.woltlab.blog)
     * [WoltLab Suite Blog: Article Threads](https://github.com/woltlab-suite-es/es.woltlab.blog.entryThread)
-* [WoltLab Suite Calendar](https://github.com/woltlab-suite-es/es.private.calendar)
+* [WoltLab Suite Calendar](https://github.com/woltlab-suite-es/es.woltlab.calendar)
     * [WoltLab Suite Calendar: Event Threads](https://github.com/woltlab-suite-es/es.woltlab.calendar.eventThread)
 * [WoltLab Suite Filebase](https://github.com/woltlab-suite-es/es.woltlab.filebase)
     * [WoltLab Suite Filebase: Support Threads](https://github.com/woltlab-suite-es/es.woltlab.filebase.supportThread)
