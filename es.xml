@@ -124,8 +124,8 @@
 		<item name="wcf.conversation.ownPosts"><![CDATA[Conversation contains your own messages]]></item>
 		<item name="wcf.conversation.gotoLastPost"><![CDATA[Ir al último mensaje]]></item>
 		<item name="wcf.conversation.searchConversations"><![CDATA[Buscar conversaciones]]></item>
-		<item name="wcf.conversation.searchConversation"><![CDATA[Buscar sólo en esta conversación]]></item>
-		<item name="wcf.conversation.searchedConversation"><![CDATA[Buscar sólo en la conversación <a href="{link controller='Conversation' object=$searchedConversation}{/link}">{$searchedConversation->getTitle()}</a>]]></item>
+		<item name="wcf.conversation.searchConversation"><![CDATA[Buscar solo en esta conversación]]></item>
+		<item name="wcf.conversation.searchedConversation"><![CDATA[Buscar solo en la conversación <a href="{link controller='Conversation' object=$searchedConversation}{/link}">{$searchedConversation->getTitle()}</a>]]></item>
 		<item name="wcf.conversation.participants.other"><![CDATA[y {if $conversation->participants - $participantSummaryCount == 1}otro más{else}{#$conversation->participants-$participantSummaryCount} otros{/if}]]></item>
 		<item name="wcf.conversation.attachments"><![CDATA[Esta conversación contiene {#$conversation->attachments} {if $conversation->attachments == 1}archivo adjunto{else}archivos adjuntos{/if}]]></item>
 		<item name="wcf.conversation.error.mailboxIsFull"><![CDATA[Has alcanzado el límite máximo de conversaciones y no puedes crear nuevas conversaciones.]]></item>
@@ -137,9 +137,9 @@
 		<item name="wcf.conversation.visibility"><![CDATA[Acceso de lectura]]></item>
 		<item name="wcf.conversation.visibility.all"><![CDATA[Todos los mensajes]]></item>
 		<item name="wcf.conversation.visibility.all.description"><![CDATA[Se mostrarán todos los mensajes, incluidos los escritos antes de ser añadidos a este hilo.]]></item>
-		<item name="wcf.conversation.visibility.nextMessages"><![CDATA[Has sido eliminado de esta conversación, sólo puedes leer los mensajes hasta este punto.]]></item>
-		<item name="wcf.conversation.visibility.new"><![CDATA[Sólo mensajes nuevos]]></item>
-		<item name="wcf.conversation.visibility.new.description"><![CDATA[Los nuevos participantes sólo verán los mensajes nuevos, los mensajes antiguos quedarán ocultos para ellos.]]></item>
+		<item name="wcf.conversation.visibility.nextMessages"><![CDATA[Has sido eliminado de esta conversación, solo puedes leer los mensajes hasta este punto.]]></item>
+		<item name="wcf.conversation.visibility.new"><![CDATA[Solo mensajes nuevos]]></item>
+		<item name="wcf.conversation.visibility.new.description"><![CDATA[Los nuevos participantes solo verán los mensajes nuevos, los mensajes antiguos quedarán ocultos para ellos.]]></item>
 		<item name="wcf.conversation.visibility.previousMessages"><![CDATA[Te han añadido a una conversación existente, los mensajes escritos anteriormente están ocultos.]]></item>
 		<item name="wcf.conversation.time"><![CDATA[Creación]]></item>
 		<item name="wcf.conversation.username"><![CDATA[Autor]]></item>
