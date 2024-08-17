@@ -40,9 +40,9 @@
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.message.conversation"><![CDATA[Conversaciones]]></item>
 		<item name="wcf.acp.option.conversation_list_default_sort_field"><![CDATA[Ordenar por]]></item>
-		<item name="wcf.acp.option.conversation_list_default_sort_field.description"><![CDATA[Seleccione la opción de ordenación por defecto de las conversaciones.]]></item>
+		<item name="wcf.acp.option.conversation_list_default_sort_field.description"><![CDATA[Selecciona la opción de ordenación por defecto de las conversaciones.]]></item>
 		<item name="wcf.acp.option.conversation_list_default_sort_order"><![CDATA[Orden de clasificación]]></item>
-		<item name="wcf.acp.option.conversation_list_default_sort_order.description"><![CDATA[Seleccione el orden por defecto de las conversaciones.]]></item>
+		<item name="wcf.acp.option.conversation_list_default_sort_order.description"><![CDATA[Selecciona el orden por defecto de las conversaciones.]]></item>
 		<item name="wcf.acp.option.conversation_messages_per_page"><![CDATA[Mensajes por página]]></item>
 		<item name="wcf.acp.option.conversations_per_page"><![CDATA[Conversaciones por página]]></item>
 		<item name="wcf.acp.option.module_conversation"><![CDATA[Conversaciones]]></item>
