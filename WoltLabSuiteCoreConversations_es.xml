@@ -33,9 +33,9 @@
 		<item name="wcf.acp.group.option.user.conversation.canAddGroupParticipants"><![CDATA[Puede añadir grupos de usuarios como participantes]]></item>
 		<item name="wcf.acp.group.canBeAddedAsConversationParticipant"><![CDATA[El grupo de usuarios puede añadirse como participante en las conversaciones]]></item>
 		<item name="wcf.acp.group.option.user.conversation.maxStartedConversationsPer24Hours"><![CDATA[Número máximo de conversaciones iniciadas en 24 horas]]></item>
-		<item name="wcf.acp.group.option.user.conversation.maxStartedConversationsPer24Hours.description"><![CDATA[Limita el número de conversaciones que un usuario puede iniciar en 24 horas. Utilice -1 para infinito.]]></item>
+		<item name="wcf.acp.group.option.user.conversation.maxStartedConversationsPer24Hours.description"><![CDATA[Limita el número de conversaciones que un usuario puede iniciar en 24 horas. Usa -1 para infinito.]]></item>
 		<item name="wcf.acp.group.option.user.conversation.floodControlTime"><![CDATA[Retraso entre mensajes]]></item>
-		<item name="wcf.acp.group.option.user.conversation.floodControlTime.description"><![CDATA[Segundos requeridos entre la creación de dos mensajes de conversación. Utilice 0 para desactivar.]]></item>
+		<item name="wcf.acp.group.option.user.conversation.floodControlTime.description"><![CDATA[Segundos requeridos entre la creación de dos mensajes de conversación. Usa 0 para desactivar.]]></item>
 	</category>
 	<category name="wcf.acp.option">
 		<item name="wcf.acp.option.category.message.conversation"><![CDATA[Conversaciones]]></item>
