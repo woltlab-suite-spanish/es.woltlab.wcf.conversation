@@ -121,7 +121,7 @@
 		<item name="wcf.conversation.replies"><![CDATA[Respuestas]]></item>
 		<item name="wcf.conversation.reply"><![CDATA[Responder a esta conversación …]]></item>
 		<item name="wcf.conversation.showAll"><![CDATA[Mostrar todas las conversaciones]]></item>
-		<item name="wcf.conversation.ownPosts"><![CDATA[Conversation contains your own messages]]></item>
+		<item name="wcf.conversation.ownPosts"><![CDATA[Esta conversación contiene mensajes tuyos]]></item>
 		<item name="wcf.conversation.gotoLastPost"><![CDATA[Ir al último mensaje]]></item>
 		<item name="wcf.conversation.searchConversations"><![CDATA[Buscar conversaciones]]></item>
 		<item name="wcf.conversation.searchConversation"><![CDATA[Buscar solo en esta conversación]]></item>
