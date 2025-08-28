@@ -53,7 +53,7 @@
 		<item name="wcf.acp.rebuildData.wcf_system_worker_ConversationMessageRebuildDataWorker"><![CDATA[Reconstruir mensajes de conversaciones]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_ConversationMessageRebuildDataWorker.description"><![CDATA[Reconstruye los contadores de mensajes de conversaciones.]]></item>
 		<item name="wcf.acp.rebuildData.wcf_system_worker_ConversationMessageSearchIndexRebuildDataWorker"><![CDATA[Reconstruir índice de búsqueda de mensajes de conversaciones]]></item>
-		<item name="wcf.acp.rebuildData.wcf_system_worker_ConversationMessageSearchIndexRebuildDataWorker.description"><![CDATA[Advertencia: Esta acción puede tardar en completarse en foros grandes.]]></item>
+		<item name="wcf.acp.rebuildData.wcf_system_worker_ConversationMessageSearchIndexRebuildDataWorker.description"><![CDATA[Atención: Esta acción puede tardar en completarse en foros grandes.]]></item>
 	</category>
 	<category name="wcf.acp.stat">
 		<item name="wcf.acp.stat.com.woltlab.wcf.conversation"><![CDATA[Conversaciones]]></item>
