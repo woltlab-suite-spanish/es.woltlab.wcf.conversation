@@ -97,12 +97,9 @@
 		<item name="wcf.conversation.participants.error.duplicate"><![CDATA[{$username} ya participa en esta conversación.]]></item>
 		<item name="wcf.conversation.participants.error.canNotUseConversation"><![CDATA[{$username} no tiene permitido participar en conversaciones.]]></item>
 		<item name="wcf.conversation.participants.error.doesNotAcceptConversation"><![CDATA[{$username} no quiere ser añadido a conversaciones.]]></item>
-		<item name="wcf.conversation.participants.error.emptyGroup"><![CDATA[Todos los miembros de los grupos de usuarios introducidos ya participan en esta conversación.]]></item>
 		<item name="wcf.conversation.participants.error.intersects"><![CDATA[{$username} ya ha sido añadido como participante visible.]]></item>
 		<item name="wcf.conversation.participants.error.ignoresYou"><![CDATA[{$username} te tiene bloqueado.]]></item>
 		<item name="wcf.conversation.participants.error.tooManyParticipants"><![CDATA[Has añadido demasiados participantes, puedes añadir hasta {#$__wcf->getSession()->getPermission('user.conversation.maxParticipants')} participantes.]]></item>
-		<item name="wcf.conversation.participants.error.invisibleParticipantsNoPermission"><![CDATA[No tienes permiso para añadir participantes invisibles.]]></item>
-		<item name="wcf.conversation.participants.error.participantCanInviteNoPermission"><![CDATA[No tienes permiso para permitir que los participantes añadan nuevos participantes.]]></item>
 		<item name="wcf.conversation.participants.removeParticipant"><![CDATA[Eliminar participante]]></item>
 		<item name="wcf.conversation.participants.removeParticipant.confirmMessage"><![CDATA[¿Realmente deseas eliminar a <span class="confirmationObject">{$participant->username}</span> de esta conversación?]]></item>
 		<item name="wcf.conversation.quota"><![CDATA[Cuota]]></item>
@@ -131,10 +128,8 @@
 		<item name="wcf.conversation.username"><![CDATA[Autor]]></item>
 		<item name="wcf.conversation.error.floodControl"><![CDATA[Has iniciado {if $limit == 1}una conversación{else}{#$limit} conversaciones{/if} en las últimas 24 horas. Por favor, espera hasta el <strong>{time time=$notBefore type='plainTime'}</strong> antes de iniciar una nueva conversación.]]></item>
 		<item name="wcf.conversation.message.error.floodControl"><![CDATA[Has enviado un mensaje en {plural value=$__wcf->getSession()->getPermission('user.conversation.floodControlTime') 1='el último segundo' other='los últimos # segundos'}. Debes esperar al menos {plural value=$waitTime 1='un segundo' other='# segundos'} antes de intentar escribir un nuevo mensaje.]]></item>
-		<item name="wcf.conversation.addGroupParticipants"><![CDATA[Añadir grupos de usuarios]]></item>
-		<item name="wcf.conversation.participantGroups"><![CDATA[Grupos de usuarios]]></item>
-		<item name="wcf.conversation.addInvisibleGroupParticipants"><![CDATA[Añadir grupos de usuarios invisibles]]></item>
-		<item name="wcf.conversation.invisibleParticipantGroups"><![CDATA[Grupos de usuarios invisibles]]></item>
+		<item name="wcf.conversation.participantGroups"><![CDATA[Añadir grupos de usuarios como participantes]]></item>
+		<item name="wcf.conversation.invisibleParticipantGroups"><![CDATA[Añadir grupos de usuarios como participantes invisibles]]></item>
 		<item name="wcf.conversation.form.isDraft"><![CDATA[Guardar como borrador]]></item>
 	</category>
 	<category name="wcf.conversation.edit">
